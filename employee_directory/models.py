@@ -12,8 +12,17 @@ class Employee(MPTTModel):
         verbose_name = 'Сотрудник'
         verbose_name_plural = 'Сотрудники'
 
+    EMPLOYEE_TYPE = (
+        ('МАСТЕР', 'мастер'),
+        ('ПРОРАБ', 'прораб'),
+        ('НАЧАЛЬНИК УЧАСТКА', 'начальник участка'),
+        ('ГЛАНЫЙ ИНЖЕНЕР', 'главный инженер'),
+        ('ДИРЕКТОР', 'директор'),
+    )
+
     name = models.CharField(verbose_name='ФИО', max_length=256)
-    position = models.CharField(verbose_name='Должность', max_length=100)
+    position = models.CharField(verbose_name='Должность', max_length=100, choices=EMPLOYEE_TYPE,
+                                default=EMPLOYEE_TYPE[0][0])
     employment_date = models.DateTimeField(verbose_name='Дата приема на работу', auto_now=True)
     salary = models.DecimalField(verbose_name='Заработная плата', decimal_places=2, max_digits=8,
                                  validators=[MinValueValidator(Decimal('0'))], null=True, blank=True)
