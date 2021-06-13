@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CELERY_BROKER_URL = 'REDIS://localhost:6379/0'
+CELERY_RESULT_BACKEND = 'django-db'
 
 # Application definition
 
@@ -39,6 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'employee_directory',
     'rest_framework',
+    'django_seed',
+    'django_celery_beat',
+    'django_celery_results',
 ]
 
 MIDDLEWARE = [

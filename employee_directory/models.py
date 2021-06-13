@@ -30,7 +30,7 @@ class Employee(MPTTModel):
                                       validators=[MinValueValidator(Decimal('0'))], null=True, blank=True)
     parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children',
                             verbose_name='Босс')
-    owner = models.ManyToManyField(User, related_name='owner', blank=True)
+    # owner = models.ManyToManyField(User, related_name='owner', blank=True)
 
     def __str__(self):
         return f'{self.name} [{self.position}]'
