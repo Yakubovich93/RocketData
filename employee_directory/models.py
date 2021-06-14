@@ -27,10 +27,9 @@ class Employee(MPTTModel):
     salary = models.DecimalField(verbose_name='Заработная плата', decimal_places=2, max_digits=8,
                                  validators=[MinValueValidator(Decimal('0'))], null=True, blank=True)
     paid_salary = models.DecimalField(verbose_name='Выплаченная зарплата', decimal_places=2, max_digits=10,
-                                      validators=[MinValueValidator(Decimal('0'))], null=True, blank=True)
+                                      validators=[MinValueValidator(Decimal('0'))], null=True, blank=True, default=0)
     parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children',
                             verbose_name='Босс')
-    # owner = models.ManyToManyField(User, related_name='owner', blank=True)
 
     def __str__(self):
         return f'{self.name} [{self.position}]'
