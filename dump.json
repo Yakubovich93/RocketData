@@ -1,0 +1,1572 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2021-06-14T13:58:40.676Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Иванов Иван [ДИРЕКТОР]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2021-06-14T13:58:53.539Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Иванов Александр [ГЛАНЫЙ ИНЖЕНЕР]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2021-06-14T14:19:17.717Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Иванов Андрей [НАЧАЛЬНИК УЧАСТКА]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2021-06-14T14:19:29.840Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Иванов Андрей [НАЧАЛЬНИК УЧАСТКА]",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u044b\\u043f\\u043b\\u0430\\u0447\\u0435\\u043d\\u043d\\u0430\\u044f \\u0437\\u0430\\u0440\\u043f\\u043b\\u0430\\u0442\\u0430\", \"\\u0411\\u043e\\u0441\\u0441\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2021-06-14T14:19:46.964Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Иванов Дмитрий [ПРОРАБ]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2021-06-14T14:20:34.241Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Иванов Александр [ГЛАНЫЙ ИНЖЕНЕР]",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0411\\u043e\\u0441\\u0441\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2021-06-14T14:20:54.928Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Иванов Алексей [МАСТЕР]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2021-06-14T14:21:09.257Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Иванов Роман [МАСТЕР]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Сотрудник",
+      "content_type": 7,
+      "codename": "add_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Сотрудник",
+      "content_type": 7,
+      "codename": "change_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Сотрудник",
+      "content_type": 7,
+      "codename": "delete_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Сотрудник",
+      "content_type": 7,
+      "codename": "view_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add crontab",
+      "content_type": 8,
+      "codename": "add_crontabschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change crontab",
+      "content_type": 8,
+      "codename": "change_crontabschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete crontab",
+      "content_type": 8,
+      "codename": "delete_crontabschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view crontab",
+      "content_type": 8,
+      "codename": "view_crontabschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add interval",
+      "content_type": 9,
+      "codename": "add_intervalschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change interval",
+      "content_type": 9,
+      "codename": "change_intervalschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete interval",
+      "content_type": 9,
+      "codename": "delete_intervalschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view interval",
+      "content_type": 9,
+      "codename": "view_intervalschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add periodic task",
+      "content_type": 10,
+      "codename": "add_periodictask"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change periodic task",
+      "content_type": 10,
+      "codename": "change_periodictask"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete periodic task",
+      "content_type": 10,
+      "codename": "delete_periodictask"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view periodic task",
+      "content_type": 10,
+      "codename": "view_periodictask"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add periodic tasks",
+      "content_type": 11,
+      "codename": "add_periodictasks"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change periodic tasks",
+      "content_type": 11,
+      "codename": "change_periodictasks"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete periodic tasks",
+      "content_type": 11,
+      "codename": "delete_periodictasks"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view periodic tasks",
+      "content_type": 11,
+      "codename": "view_periodictasks"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add solar event",
+      "content_type": 12,
+      "codename": "add_solarschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change solar event",
+      "content_type": 12,
+      "codename": "change_solarschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete solar event",
+      "content_type": 12,
+      "codename": "delete_solarschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view solar event",
+      "content_type": 12,
+      "codename": "view_solarschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add clocked",
+      "content_type": 13,
+      "codename": "add_clockedschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change clocked",
+      "content_type": 13,
+      "codename": "change_clockedschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete clocked",
+      "content_type": 13,
+      "codename": "delete_clockedschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view clocked",
+      "content_type": 13,
+      "codename": "view_clockedschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add task result",
+      "content_type": 14,
+      "codename": "add_taskresult"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change task result",
+      "content_type": 14,
+      "codename": "change_taskresult"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete task result",
+      "content_type": 14,
+      "codename": "delete_taskresult"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view task result",
+      "content_type": 14,
+      "codename": "view_taskresult"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add chord counter",
+      "content_type": 15,
+      "codename": "add_chordcounter"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change chord counter",
+      "content_type": 15,
+      "codename": "change_chordcounter"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete chord counter",
+      "content_type": 15,
+      "codename": "delete_chordcounter"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view chord counter",
+      "content_type": 15,
+      "codename": "view_chordcounter"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$pLeD6YgcgCFzAVcG3P3gr2$NXpBuKwvJ0WzGGfAEkv4eEooMEAqIG9O0kshrm5uu8g=",
+      "last_login": "2021-06-14T13:38:12.166Z",
+      "is_superuser": true,
+      "username": "root",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-06-14T13:37:53.501Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "employee_directory",
+      "model": "employee"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "django_celery_beat",
+      "model": "crontabschedule"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "django_celery_beat",
+      "model": "intervalschedule"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "django_celery_beat",
+      "model": "periodictask"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "django_celery_beat",
+      "model": "periodictasks"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "django_celery_beat",
+      "model": "solarschedule"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "django_celery_beat",
+      "model": "clockedschedule"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "django_celery_results",
+      "model": "taskresult"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "django_celery_results",
+      "model": "chordcounter"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "b1e4jd7zm53dz46dw7fhysegroc1jmob",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlnejX-hpOcM1tq7xgGUSPlUiLtDpBTQvpl5L5VoW1vaFpnTwOqsQJ1-t0zlIeMO-E7jbdJlGtd5yHpX9EEXfZ1YnpfD_TtotLRvLZ4lSCSCGLHrKlIFDAaFjHVssLe1t84i9wULFe8NRHAiHGp22YF6fwDiTTfJ:1lsmn6:IqVdzrxEoJoORCoRO_GCydzmCXmfW5jw2UfvdhxBspE",
+      "expire_date": "2021-06-28T13:38:12.167Z"
+    }
+  },
+  {
+    "model": "employee_directory.employee",
+    "pk": 1,
+    "fields": {
+      "name": "Иванов Иван",
+      "position": "ДИРЕКТОР",
+      "employment_date": "2021-06-14T14:24:06.343Z",
+      "salary": "5000.00",
+      "paid_salary": "60000.00",
+      "parent": null,
+      "lft": 1,
+      "rght": 12,
+      "tree_id": 1,
+      "level": 0
+    }
+  },
+  {
+    "model": "employee_directory.employee",
+    "pk": 2,
+    "fields": {
+      "name": "Иванов Александр",
+      "position": "ГЛАНЫЙ ИНЖЕНЕР",
+      "employment_date": "2021-06-14T14:20:56.321Z",
+      "salary": "4000.00",
+      "paid_salary": "16000.00",
+      "parent": 1,
+      "lft": 2,
+      "rght": 11,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "employee_directory.employee",
+    "pk": 3,
+    "fields": {
+      "name": "Иванов Андрей",
+      "position": "НАЧАЛЬНИК УЧАСТКА",
+      "employment_date": "2021-06-14T14:23:46.342Z",
+      "salary": "2400.00",
+      "paid_salary": "16800.00",
+      "parent": 2,
+      "lft": 3,
+      "rght": 10,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "employee_directory.employee",
+    "pk": 4,
+    "fields": {
+      "name": "Иванов Дмитрий",
+      "position": "ПРОРАБ",
+      "employment_date": "2021-06-14T14:23:26.341Z",
+      "salary": "1800.00",
+      "paid_salary": "7200.00",
+      "parent": 3,
+      "lft": 4,
+      "rght": 9,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "employee_directory.employee",
+    "pk": 5,
+    "fields": {
+      "name": "Иванов Алексей",
+      "position": "МАСТЕР",
+      "employment_date": "2021-06-14T14:23:16.341Z",
+      "salary": "1300.00",
+      "paid_salary": "3900.00",
+      "parent": 4,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "employee_directory.employee",
+    "pk": 6,
+    "fields": {
+      "name": "Иванов Роман",
+      "position": "МАСТЕР",
+      "employment_date": "2021-06-14T14:23:56.342Z",
+      "salary": "1250.00",
+      "paid_salary": "6250.00",
+      "parent": 4,
+      "lft": 7,
+      "rght": 8,
+      "tree_id": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 1,
+    "fields": {
+      "task_id": "f089a7da-6872-4aeb-bbd0-a9a912bc34af",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:18:16.343Z",
+      "date_done": "2021-06-14T14:18:16.343Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 2,
+    "fields": {
+      "task_id": "5db83044-e585-444b-b94f-bf63fe72e12f",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:18:26.344Z",
+      "date_done": "2021-06-14T14:18:26.344Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 3,
+    "fields": {
+      "task_id": "e08696e6-7e2e-4ce6-b8ae-90a2eed1eb55",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0430\\u043d\\u0434\\u0440 [\\u0413\\u041b\\u0410\\u041d\\u042b\\u0419 \\u0418\\u041d\\u0416\\u0415\\u041d\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :4000.00\"",
+      "date_created": "2021-06-14T14:18:36.329Z",
+      "date_done": "2021-06-14T14:18:36.329Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 4,
+    "fields": {
+      "task_id": "1bd7bc4a-1d3d-4c5f-9da9-efb6be5fc3ca",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:18:46.331Z",
+      "date_done": "2021-06-14T14:18:46.331Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 5,
+    "fields": {
+      "task_id": "479a9139-9c0e-4d97-a60e-4cac1db28ff2",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0430\\u043d\\u0434\\u0440 [\\u0413\\u041b\\u0410\\u041d\\u042b\\u0419 \\u0418\\u041d\\u0416\\u0415\\u041d\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :4000.00\"",
+      "date_created": "2021-06-14T14:18:56.345Z",
+      "date_done": "2021-06-14T14:18:56.345Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 6,
+    "fields": {
+      "task_id": "55bd02f7-2d30-4a84-8a22-d3acdb4d21bc",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:19:06.345Z",
+      "date_done": "2021-06-14T14:19:06.345Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 7,
+    "fields": {
+      "task_id": "dd659c47-8d58-4290-b47a-3bd5e3c02df2",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:19:16.334Z",
+      "date_done": "2021-06-14T14:19:16.334Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 8,
+    "fields": {
+      "task_id": "e9052aff-ba34-4968-b4eb-30568bed7be0",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043d\\u0434\\u0440\\u0435\\u0439 [\\u041d\\u0410\\u0427\\u0410\\u041b\\u042c\\u041d\\u0418\\u041a \\u0423\\u0427\\u0410\\u0421\\u0422\\u041a\\u0410] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :2400.00\"",
+      "date_created": "2021-06-14T14:19:26.345Z",
+      "date_done": "2021-06-14T14:19:26.345Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 9,
+    "fields": {
+      "task_id": "88761aab-f261-42c9-a753-d903ae1863f2",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0430\\u043d\\u0434\\u0440 [\\u0413\\u041b\\u0410\\u041d\\u042b\\u0419 \\u0418\\u041d\\u0416\\u0415\\u041d\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :4000.00\"",
+      "date_created": "2021-06-14T14:19:36.323Z",
+      "date_done": "2021-06-14T14:19:36.323Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 10,
+    "fields": {
+      "task_id": "048be20e-f819-4bc4-a5e7-7fd6d879ecf9",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043d\\u0434\\u0440\\u0435\\u0439 [\\u041d\\u0410\\u0427\\u0410\\u041b\\u042c\\u041d\\u0418\\u041a \\u0423\\u0427\\u0410\\u0421\\u0422\\u041a\\u0410] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :2400.00\"",
+      "date_created": "2021-06-14T14:19:46.324Z",
+      "date_done": "2021-06-14T14:19:46.324Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 11,
+    "fields": {
+      "task_id": "be2cf609-8462-493f-9160-4d17cccb41f1",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043d\\u0434\\u0440\\u0435\\u0439 [\\u041d\\u0410\\u0427\\u0410\\u041b\\u042c\\u041d\\u0418\\u041a \\u0423\\u0427\\u0410\\u0421\\u0422\\u041a\\u0410] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :2400.00\"",
+      "date_created": "2021-06-14T14:19:56.334Z",
+      "date_done": "2021-06-14T14:19:56.334Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 12,
+    "fields": {
+      "task_id": "a79de13d-f054-44d8-bec2-d811d57acba3",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0414\\u043c\\u0438\\u0442\\u0440\\u0438\\u0439 [\\u041f\\u0420\\u041e\\u0420\\u0410\\u0411] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1800.00\"",
+      "date_created": "2021-06-14T14:20:06.341Z",
+      "date_done": "2021-06-14T14:20:06.341Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 13,
+    "fields": {
+      "task_id": "2ae36339-13be-497b-afc2-60ee9e103a8a",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0414\\u043c\\u0438\\u0442\\u0440\\u0438\\u0439 [\\u041f\\u0420\\u041e\\u0420\\u0410\\u0411] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1800.00\"",
+      "date_created": "2021-06-14T14:20:16.328Z",
+      "date_done": "2021-06-14T14:20:16.328Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 14,
+    "fields": {
+      "task_id": "016a9fe7-b06c-4157-80db-1b267d47c4b2",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043d\\u0434\\u0440\\u0435\\u0439 [\\u041d\\u0410\\u0427\\u0410\\u041b\\u042c\\u041d\\u0418\\u041a \\u0423\\u0427\\u0410\\u0421\\u0422\\u041a\\u0410] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :2400.00\"",
+      "date_created": "2021-06-14T14:20:26.326Z",
+      "date_done": "2021-06-14T14:20:26.326Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 15,
+    "fields": {
+      "task_id": "7c4c1295-0880-4666-8367-3eb235bab49e",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:20:36.347Z",
+      "date_done": "2021-06-14T14:20:36.347Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 16,
+    "fields": {
+      "task_id": "4bdc4e52-492b-46dd-88a1-8a5a5ed3c798",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:20:46.324Z",
+      "date_done": "2021-06-14T14:20:46.324Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 17,
+    "fields": {
+      "task_id": "ecca336a-7a21-4d82-a010-17f3132b6c82",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0430\\u043d\\u0434\\u0440 [\\u0413\\u041b\\u0410\\u041d\\u042b\\u0419 \\u0418\\u041d\\u0416\\u0415\\u041d\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :4000.00\"",
+      "date_created": "2021-06-14T14:20:56.324Z",
+      "date_done": "2021-06-14T14:20:56.324Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 18,
+    "fields": {
+      "task_id": "e6385100-f0d6-49da-83b4-5d85a89651e3",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043d\\u0434\\u0440\\u0435\\u0439 [\\u041d\\u0410\\u0427\\u0410\\u041b\\u042c\\u041d\\u0418\\u041a \\u0423\\u0427\\u0410\\u0421\\u0422\\u041a\\u0410] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :2400.00\"",
+      "date_created": "2021-06-14T14:21:06.329Z",
+      "date_done": "2021-06-14T14:21:06.329Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 19,
+    "fields": {
+      "task_id": "8d91f171-52df-4890-93e1-2c8943108148",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0414\\u043c\\u0438\\u0442\\u0440\\u0438\\u0439 [\\u041f\\u0420\\u041e\\u0420\\u0410\\u0411] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1800.00\"",
+      "date_created": "2021-06-14T14:21:16.324Z",
+      "date_done": "2021-06-14T14:21:16.324Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 20,
+    "fields": {
+      "task_id": "a96de7ec-6501-4532-b930-1278532ac990",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0435\\u0439 [\\u041c\\u0410\\u0421\\u0422\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1300.00\"",
+      "date_created": "2021-06-14T14:21:26.349Z",
+      "date_done": "2021-06-14T14:21:26.349Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 21,
+    "fields": {
+      "task_id": "f2ef57d1-c572-434d-916e-6abf0a8cd940",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:21:36.332Z",
+      "date_done": "2021-06-14T14:21:36.332Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 22,
+    "fields": {
+      "task_id": "1a9d7139-26ce-45a2-87e8-776232dcbf56",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0420\\u043e\\u043c\\u0430\\u043d [\\u041c\\u0410\\u0421\\u0422\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1250.00\"",
+      "date_created": "2021-06-14T14:21:46.334Z",
+      "date_done": "2021-06-14T14:21:46.334Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 23,
+    "fields": {
+      "task_id": "f811aff5-8bb0-450f-984a-3970a8495c95",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:21:56.336Z",
+      "date_done": "2021-06-14T14:21:56.336Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 24,
+    "fields": {
+      "task_id": "bed67327-1810-43d2-b194-641f2e0057a8",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0435\\u0439 [\\u041c\\u0410\\u0421\\u0422\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1300.00\"",
+      "date_created": "2021-06-14T14:22:06.330Z",
+      "date_done": "2021-06-14T14:22:06.330Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 25,
+    "fields": {
+      "task_id": "5b234d66-b43b-4d03-9f79-36fba3d536c8",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0420\\u043e\\u043c\\u0430\\u043d [\\u041c\\u0410\\u0421\\u0422\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1250.00\"",
+      "date_created": "2021-06-14T14:22:16.350Z",
+      "date_done": "2021-06-14T14:22:16.351Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 26,
+    "fields": {
+      "task_id": "95a32a49-cd08-4955-9245-7389b1eaad95",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043d\\u0434\\u0440\\u0435\\u0439 [\\u041d\\u0410\\u0427\\u0410\\u041b\\u042c\\u041d\\u0418\\u041a \\u0423\\u0427\\u0410\\u0421\\u0422\\u041a\\u0410] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :2400.00\"",
+      "date_created": "2021-06-14T14:22:26.352Z",
+      "date_done": "2021-06-14T14:22:26.352Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 27,
+    "fields": {
+      "task_id": "7fd05e96-bf38-4032-9910-3ff594e144be",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0420\\u043e\\u043c\\u0430\\u043d [\\u041c\\u0410\\u0421\\u0422\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1250.00\"",
+      "date_created": "2021-06-14T14:22:36.352Z",
+      "date_done": "2021-06-14T14:22:36.352Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 28,
+    "fields": {
+      "task_id": "7ff01f7a-9133-4baa-99d0-abb6a5b7490a",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043d\\u0434\\u0440\\u0435\\u0439 [\\u041d\\u0410\\u0427\\u0410\\u041b\\u042c\\u041d\\u0418\\u041a \\u0423\\u0427\\u0410\\u0421\\u0422\\u041a\\u0410] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :2400.00\"",
+      "date_created": "2021-06-14T14:22:46.353Z",
+      "date_done": "2021-06-14T14:22:46.353Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 29,
+    "fields": {
+      "task_id": "c9e1b4ee-b293-49cf-832a-186899b3e859",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:22:56.336Z",
+      "date_done": "2021-06-14T14:22:56.336Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 30,
+    "fields": {
+      "task_id": "d92a30ff-8c81-4676-84f0-d13b581e28e0",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0420\\u043e\\u043c\\u0430\\u043d [\\u041c\\u0410\\u0421\\u0422\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1250.00\"",
+      "date_created": "2021-06-14T14:23:06.328Z",
+      "date_done": "2021-06-14T14:23:06.328Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 31,
+    "fields": {
+      "task_id": "70f42579-170e-47f5-a5de-cbe94fd9bc03",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043b\\u0435\\u043a\\u0441\\u0435\\u0439 [\\u041c\\u0410\\u0421\\u0422\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1300.00\"",
+      "date_created": "2021-06-14T14:23:16.351Z",
+      "date_done": "2021-06-14T14:23:16.351Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 32,
+    "fields": {
+      "task_id": "15f07201-5565-4fd5-af13-4fde08c62776",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0414\\u043c\\u0438\\u0442\\u0440\\u0438\\u0439 [\\u041f\\u0420\\u041e\\u0420\\u0410\\u0411] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1800.00\"",
+      "date_created": "2021-06-14T14:23:26.351Z",
+      "date_done": "2021-06-14T14:23:26.351Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 33,
+    "fields": {
+      "task_id": "852d7c61-e6bf-463b-a543-8580203493eb",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:23:36.352Z",
+      "date_done": "2021-06-14T14:23:36.352Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 34,
+    "fields": {
+      "task_id": "979c4519-d152-4700-a71e-74eb35245c15",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0410\\u043d\\u0434\\u0440\\u0435\\u0439 [\\u041d\\u0410\\u0427\\u0410\\u041b\\u042c\\u041d\\u0418\\u041a \\u0423\\u0427\\u0410\\u0421\\u0422\\u041a\\u0410] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :2400.00\"",
+      "date_created": "2021-06-14T14:23:46.352Z",
+      "date_done": "2021-06-14T14:23:46.352Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 35,
+    "fields": {
+      "task_id": "2f2d8150-6f86-442f-9042-028de6452e94",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0420\\u043e\\u043c\\u0430\\u043d [\\u041c\\u0410\\u0421\\u0422\\u0415\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :1250.00\"",
+      "date_created": "2021-06-14T14:23:56.352Z",
+      "date_done": "2021-06-14T14:23:56.352Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  },
+  {
+    "model": "django_celery_results.taskresult",
+    "pk": 36,
+    "fields": {
+      "task_id": "3551b5c2-1812-4b45-be86-a0bed88fedf4",
+      "task_name": "employee_directory.tasks.pay_wages",
+      "task_args": "\"()\"",
+      "task_kwargs": "\"{}\"",
+      "status": "SUCCESS",
+      "worker": "celery@c7ee02386286",
+      "content_type": "application/json",
+      "content_encoding": "utf-8",
+      "result": "\"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432 \\u0418\\u0432\\u0430\\u043d [\\u0414\\u0418\\u0420\\u0415\\u041a\\u0422\\u041e\\u0420] \\u043d\\u0430\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e :5000.00\"",
+      "date_created": "2021-06-14T14:24:06.353Z",
+      "date_done": "2021-06-14T14:24:06.353Z",
+      "traceback": null,
+      "meta": "{\"children\": []}"
+    }
+  }
+]
