@@ -6,18 +6,16 @@ from .models import Employee
 
 @shared_task
 def pay_wages():
-    employees = Employee.objects.all().order_by()
-    first_id = employees.first().id
-    last_id = employees.last().id
-    random_id = random.randint(first_id, last_id)
-    employee_id = Employee.objects.filter(id=random_id)
+    employees = Employee.objects.values_list('id', flat=True)
+    random_id = random.choices(employees)
+    random_employee = Employee.objects.filter(id__in=random_id)
 
-    for data_employee_id in employee_id:
-        salary_id = data_employee_id.salary
-        paid_salary = data_employee_id.paid_salary
-        data_employee_id.paid_salary = salary_id + paid_salary
-        data_employee_id.save()
-        return f'{data_employee_id} начисленно :{data_employee_id.salary}'
+    for data_random_employee in random_employee:
+        salary_id = data_random_employee.salary
+        paid_salary = data_random_employee.paid_salary
+        data_random_employee.paid_salary = salary_id + paid_salary
+        data_random_employee.save()
+        return f'{data_random_employee} начисленно :{data_random_employee.salary}'
 
 
 @shared_task
