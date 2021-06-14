@@ -1,8 +1,8 @@
 docker ps -a  процессы
 docker ps -a   образы
 
-Запустить развертывание проекта
+Запустить развертывание проекта: 
 docker-compose up --build
 
 Вход в контейнер:
-docker-compose exec db bash
+docker exec -it <название контенера> bash
