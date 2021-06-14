@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-^((s752p2wt%e126wt61@&i#o%f!)-%y&^xwkc#4_*i=ge%pa@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
-CELERY_BROKER_URL = 'REDIS://localhost:6379/0'
+CELERY_BROKER_URL = 'REDIS://redis:6379/0'
 CELERY_RESULT_BACKEND = 'django-db'
 
 # Application definition
@@ -87,8 +87,8 @@ DATABASES = {
         'NAME': 'employees',
         'USER': 'vitali',
         'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'HOST': 'db',
+        'PORT': 5432,
     }
 }
 
