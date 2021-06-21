@@ -6,3 +6,5 @@ docker-compose up --build
 
 Вход в контейнер:
 docker exec -it <название контенера> bash
+./manage.py makemigrations
+./manage.py migrate
